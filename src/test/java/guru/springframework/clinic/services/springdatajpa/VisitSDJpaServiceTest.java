@@ -160,4 +160,5 @@ class VisitSDJpaServiceTest {
         //then
         then(visitRepository).should(times(1)).deleteById(anyLong());
     }
+
 }
